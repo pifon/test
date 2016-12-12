@@ -2,15 +2,16 @@ test
 ====
 
 ```
+```
 \
 | .htaccess
 | index.php				- instanciate lib\Router and passes all info it can get
 |
-├- \config				- ini and config files
+├- *config*				- ini and config files
 |
-├- \img					- graphics
+├- *img*				- graphics
 |
-├- \lib					- website objects
+├- *lib*				- website objects
 |	| Controller.php	- Core of the system - decides what to call and how to build
 |	| Error.php			- Error and Exception handler (almost as mirror in operation of controller realize only 'gone-wrong' events)
 |	| Model.php			- Service for ~Controller to communicate with DB
@@ -21,15 +22,15 @@ test
 |	| Template.php		- part of view - fetches elements from \view, fill with data
 |	| View.php			- calls Page (OR other response type) to get result view
 |	|
-|	└- \base			- website objects abstract definitinons
+|	└- *base*    		- website objects abstract definitinons
 |
-├- \script				- javascripts
+├- *script*				- javascripts
 |
-├- \style				- css
+├- *style*				- css
 |
-├- \view				- html re-uasable elements
+├- *view*				- html re-uasable elements
 |
-└- \application			- apps
-		├- \school		- school application
-		├- \notes		- notes
+└- *application*		- apps
+		├- *school*		- school application
+		├- *notes*		- notes
 ```
