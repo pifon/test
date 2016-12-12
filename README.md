@@ -2,7 +2,6 @@ test
 ====
 
 ```
-```
 \
 | .htaccess
 | index.php			- instanciate lib\Router and passes all info it can get
